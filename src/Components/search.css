@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+label {
+  color: 	#104b79;
+}
+
+#myInput, #myInput2 {
+  border-bottom: 1px solid #ddd;
+  margin: 0px;
+}
+
+#myInput::placeholder, #myInput2::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  font-size: 12px;
+  padding-left: 10px;
+}
+
+#myInput:-ms-input-placeholder, #myInput2:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  font-size: 12px;
+  padding-left: 10px;
+}
+
+#myInput::-ms-input-placeholder, #myInput2::-ms-input-placeholder { /* Microsoft Edge */
+  font-size: 12px;
+  padding-left: 10px;
+}
+
+#myUL, #myUL2 {
+   -ms-overflow-style: none;
+   overflow: -moz-scrollbars-none;
+ }
+
+#myUL::-webkit-scrollbar, #myUL2::-webkit-scrollbar {
+   display: none;
+}
+
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  max-height: 82px;
+  overflow: auto;
+  background-color: white;
+}
+
+#myUL2 {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 10px;
+  margin: 0;
+  max-height: 82px;
+  overflow: auto;
+  background-color: white;
+}
+
+#myUL li, #myUL2 li {
+  padding: 3px;
+  text-decoration: none;
+  display: block;
+  cursor: default;
+  color: 	#74778b;
+  background-color: #fff;
+  border-bottom: 1px solid #eaebec;
+  font-size: 14px;
+}
+
+
+#myUL li:hover, #myUL2 li:hover {
+  background-color: #2196f3;
+  color: white;
+}

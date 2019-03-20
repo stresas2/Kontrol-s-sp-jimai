@@ -1,0 +1,78 @@
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #ffff;
+  color: #fff;
+}
+
+.ReactModal__Body--open {
+  overflow: hidden;
+}
+
+.frame {
+  overflow-y: scroll;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.frame::-webkit-scrollbar {
+    display: none;
+}
+
+.scroll {
+  padding: 0px;
+  margin: 0px;
+  height: 100vh;
+  min-height: 400px;
+}
+/*
+ * Header
+ */
+
+.masthead-brand {
+  margin-bottom: 0;
+}
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, .5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+/*
+ * Footer
+ */
+.mastfoot {
+  color: rgba(255, 255, 255, .5);
+}
+
+.sticky-offset{
+  top: 50px;
+}
+
+.text-wrap {
+  word-wrap: break-word;
+}

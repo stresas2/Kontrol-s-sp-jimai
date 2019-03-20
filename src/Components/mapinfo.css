@@ -1,0 +1,8 @@
+.info{
+  color: #353a40;
+  border: 2px solid rgb(145, 145, 145, .5);
+  background-color: rgba(255, 255, 255, .5);
+  width: 105px;
+  height: 35px;
+  border-radius: 5px;
+}
